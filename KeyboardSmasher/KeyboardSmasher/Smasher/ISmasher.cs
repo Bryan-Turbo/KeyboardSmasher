@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KeyboardSmasher {
+namespace KeyboardSmasher.Smasher {
     interface ISmasher {
         bool IsSmashing();
         void StartSmashing();
         void StopSmashing();
-        void Smash();
     }
 }
